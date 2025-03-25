@@ -1,0 +1,5 @@
+CMP001,Tech Corp,New York,123 Tech Street,1234567890,15.5,1998
+CMP002,AutoParts Ltd,Detroit,456 Auto Avenue,9876543210,12.8,2005
+CMP003,BuildWell,Chicago,789 Build Road,1122334455,10.2,2010
+CMP004,Electro Inc,San Francisco,321 Electro Lane,2233445566,18.3,1995
+CMP005,MetalWorks,Los Angeles,654 Metal Street,3344556677,14.0,2000
