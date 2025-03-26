@@ -1,0 +1,13 @@
+1. Create case classes for schema provided for both datasets (implement with Spark Core)
+2. CompanyOrders.csv
+3. case class CompanyOrders(OrderID: String, CompanyID: String, CompanyName: String, CompanyLocation: String, ComponentToBeManufactured: String, Quantity: Long, EstimatedCost: Double, OrderDate: String, DueDate: String, CompletionStatus: String, DeliveryStatus: String
+4. case class CompanyInfo(CompanyID: String, CompanyName: String, CompanyLocation: String, CompanyAddress: String, CompanyContact: Long, ProfitMargin: Double, EstablishedYear: Int)
+5. Load both csv files into CompanyInfoRDD and CompanyOrdersRDD (spark core)
+6. Convert both datasets to DFs (Spark SQL)
+7. Fetch the details of all the companies that are at least 20 years old (spark sql)
+8. Fetch the name of the company which has the highest profit margin among those who have ordered Shock Absorbers (spark core)
+9. Find the total number of companies that have ordered Fender (spark core)
+10. Find the total number of Exhaust Pipes that have been ordered from North Carolina (spark SQL)
+11. Find the total count of all the orders that has been completed but not delivered yet (spark core)
+12. Display all the orders whose status is still pending. Reduce the total cost of all such orders by 10%. Store them in a file called DiscountOrders.csv (SparkSQL)
+13. Based on the previous question, fetch the total cost to be paid by all the franchises having company name as Laser Wheels (spark core)
